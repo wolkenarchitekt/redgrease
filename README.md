@@ -87,7 +87,7 @@ results = (
 for res in results:
     print(f"{res['key']::<15s}{res['value']}")
 ```
-## RedGrease consists of the followinig, components:
+## RedGrease consists of the following, components:
 
 1. [A Redis / Redis Gears client](https://redgrease.readthedocs.io), which is an extended version of the [redis](https://pypi.org/project/redis/) client, but with additional pythonic functions, mapping closely (1-to-1) to the Redis Gears command set (e.g. `RG.PYEXECUTE`, `RG.GETRESULT`, `RG.TRIGGER`, `RG.DUMPREGISTRATIONS` etc), outlined [here](https://oss.redislabs.com/redisgears/commands.html)
 ```python
